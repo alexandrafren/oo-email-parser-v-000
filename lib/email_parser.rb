@@ -5,6 +5,10 @@
 class EmailParser
   attr_accessor :email
 
+  def initialize(emails)
+    parse(emails)
+  end
+
   def parse(emails)
     email_array = emails.split(/\W/)
   end
