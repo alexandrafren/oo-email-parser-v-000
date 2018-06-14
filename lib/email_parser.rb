@@ -7,8 +7,6 @@ class EmailParser
 
   def parse(emails)
     email_array = emails.split(/\W/)
-    puts email_array
   end
 
 end
-
